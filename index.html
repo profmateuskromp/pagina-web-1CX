@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,25 +15,30 @@
             border: 5px solid #862121;
             padding: 16px;
         }
+
         main {
-            background-color:beige ;
+            background-color: beige;
             color: #862121;
             text-align: center;
             max-width: 800px;
             margin: 0, auto;
         }
+
         img {
             width: 80px;
             height: 80px;
         }
+
         div p {
             font-weight: bold;
         }
+
         .artigo-autor {
             font-weight: bold;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Site da Turma</h1>
@@ -48,15 +54,15 @@
             <button>❤️<span>0</span></button>
             <button>👍<span>0</span></button>
         </div>
-     </main>
-    
-    
+    </main>
+
+
 </body>
 
 <script>
     const botoes = document.querySelector("button");
-    
-    botoes.forEach(function(botao) {
+
+    botoes.forEach(function (botao) {
         botao.addEventListener("click", botaoClicado);
         function botaoClicado() {
             console.log("fui clicado");
@@ -64,7 +70,7 @@
             texto.textContent++;
         }
     });
-        
+
 </script>
 
 </html>
