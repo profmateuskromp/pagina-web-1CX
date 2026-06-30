@@ -17,7 +17,7 @@
         }
 
         article {
-            display: inline;
+            display: flex;
         }
 
         img {
