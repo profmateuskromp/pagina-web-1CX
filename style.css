@@ -11,9 +11,9 @@
         main {
             background-color: beige;
             color: #862121;
-            text-align: center;
             max-width: 800px;
             margin: 0, auto;
+            padding: 16px;
         }
 
         article {
