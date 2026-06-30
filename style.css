@@ -16,6 +16,7 @@ main {
     margin: 0 auto;
     padding: 16px;
     display: flex;
+    flex-wrap: wrap;
     }
 
 article {
@@ -24,6 +25,10 @@ article {
     margin: 16px;
     gap: 16px;
     padding: 16px;
+    flex: 1 1 25%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     }
 
         img {
